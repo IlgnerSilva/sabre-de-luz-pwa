@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.pagina{
+    background-color: black;
+    height: 100vh;
+    display: none;
+}
+
+/* ---------- PÁGINA ESCOLHA (PÁGINA 1) ---------- */
+#pagina-escolha{
+    display: flex; 
+    flex-direction: column;   
+    justify-content: center;
+
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 30pt;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.botoes button{
+    padding: 20px 40px;
+    border: 0;
+    border-radius: 50px;
+    font-size: 20pt;
+    font-weight: bolder;
+    color: white;
+}
+
+.jedi{
+    background-color: #039903;
+}
+
+.sith{
+    background-color: rgb(199, 5, 5);
+
+}
+
+/* ---------- PÁGINA SABRE DE LUZ (PÁGINA 2) ---------- */
+
+#pagina-sabre{   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.lamina{
+    width: 15px;
+    height: 350px;
+    background: linear-gradient(90deg,#039903, #41b641, #039903);
+    box-shadow: 0px 0px 30px #039903;
+    border-radius: 10px 10px 0 0;
+    opacity: 0; 
+    transition: 2s;
+}
+.punho{
+    width: 15px;
+    height: 50px;
+    background: linear-gradient(90deg, #444, #999, #444);
+    border-radius: 0 0 10px 10px;
+    
+}
+
